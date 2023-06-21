@@ -1,0 +1,19 @@
+/* Main container  */
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+/* Table Border  */
+table,td,th{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/* description postion */
+#description{
+    border-right: none;
+    position: relative;
+    left: 300px;
+}
